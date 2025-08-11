@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Função para gerar CV em PDF
 function gerarCVPDF() {
-  const { jsPDF } = window.jspdf;
+  const jsPDF = window.jspdf.jsPDF;
   const doc = new jsPDF({ unit: 'pt', format: 'a4' });
 
   // Paleta
