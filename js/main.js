@@ -12,6 +12,7 @@ function typeWriter(element, text, delay = 200) {
   typing();
 }
 
+
 // REVEAL ON SCROLL
 function revealOnScroll() {
   const reveals = document.querySelectorAll('.reveal');
